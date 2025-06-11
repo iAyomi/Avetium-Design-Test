@@ -1,7 +1,9 @@
+import Button from "../components/Button";
+
 const FAQs = () => {
   return (
-    <section className="h-screen w-screen px-50 flex flex-col items-center justify-center bg-[#FDF8F7]">
-      <div className="flex flex-col items-center gap-y-4 mb-20">
+    <section className="h-screen w-screen px-50 flex flex-col gap-y-20 items-center justify-center bg-[#FDF8F7]">
+      <div className="flex flex-col items-center gap-y-4">
         <h5 className="text-lg font-bold text-[#E95D28]">FAQs</h5>
         <h2 className="text-4xl font-bold">Got any questions?</h2>
         <p className="text-md font-medium text-[#4F4E53]">
@@ -42,6 +44,7 @@ const FAQs = () => {
             </p>
           </div>
         </div>
+
         <div className="flex flex-col gap-y-10">
           <div className="flex flex-col gap-y-5 text-start">
             <h4 className="text-md font-bold">
@@ -53,6 +56,7 @@ const FAQs = () => {
               elementum praesent vel quis accumsan, proin rhoncus.
             </p>
           </div>
+
           <div className="flex flex-col gap-y-5 text-start">
             <h4 className="text-md font-bold">
               Do you offer discounts on annual plans?
@@ -63,6 +67,7 @@ const FAQs = () => {
               elementum praesent vel quis accumsan, proin rhoncus.
             </p>
           </div>
+
           <div className="flex flex-col gap-y-5 text-start">
             <h4 className="text-md font-bold">
               What kind of file do you offer with the packages?
@@ -75,6 +80,11 @@ const FAQs = () => {
           </div>
         </div>
       </div>
+
+      <Button
+        content="Visit our helpdesk"
+        styles="border-[#E95D28] text-[#BB3C2D]"
+      />
     </section>
   );
 };
