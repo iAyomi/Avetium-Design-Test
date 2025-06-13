@@ -1,7 +1,7 @@
 import { Heading, SubHeading, Paragraph } from "../components/Typography";
 import Button from "../components/Button";
 import screenBg from "../assets/screen_bg.svg";
-import check from "../assets/icons/check.svg";
+import checkIcon from "../assets/icons/check.svg";
 import bitbucket from "../assets/tools/bitbucket.svg";
 import confluence from "../assets/tools/confluence.svg";
 import discord from "../assets/tools/discord.svg";
@@ -152,14 +152,14 @@ const Integrations = () => {
 
             <div className="grid grid-cols-2 gap-x-5 gap-y-3">
               <div className="w-fit space-y-3">
-                <img src={check} alt="check" />
+                <img src={checkIcon} alt="checkIcon" />
                 <Paragraph styles="text-sm font-medium text-[#4F4E53]">
                   Get unlimited design inspirations. Level up your design.
                 </Paragraph>
               </div>
 
               <div className="w-fit space-y-3">
-                <img src={check} alt="check" />
+                <img src={checkIcon} alt="checkIcon" />
                 <Paragraph styles="text-sm font-medium text-[#4F4E53]">
                   14+ Premium tailwind UI kits. Start with unlimited product
                   downloads.
@@ -167,14 +167,14 @@ const Integrations = () => {
               </div>
 
               <div className="w-fit space-y-3">
-                <img src={check} alt="check" />
+                <img src={checkIcon} alt="checkIcon" />
                 <Paragraph styles="text-sm font-medium text-[#4F4E53]">
                   Submit your design. Get extra exposure on works to grow fast.
                 </Paragraph>
               </div>
 
               <div className="w-fit space-y-3">
-                <img src={check} alt="check" />
+                <img src={checkIcon} alt="checkIcon" />
                 <Paragraph styles="text-sm font-medium text-[#4F4E53]">
                   Get unlimited design inspirations. Level up your design.
                 </Paragraph>
@@ -223,14 +223,14 @@ const Integrations = () => {
 
             <div className="grid grid-cols-2 gap-x-5 gap-y-3">
               <div className="w-fit space-y-3">
-                <img src={check} alt="check" />
+                <img src={checkIcon} alt="checkIcon" />
                 <Paragraph styles="text-sm font-medium text-[#4F4E53]">
                   Get unlimited design inspirations. Level up your design.
                 </Paragraph>
               </div>
 
               <div className="w-fit space-y-3">
-                <img src={check} alt="check" />
+                <img src={checkIcon} alt="checkIcon" />
                 <Paragraph styles="text-sm font-medium text-[#4F4E53]">
                   14+ Premium tailwind UI kits. Start with unlimited product
                   downloads.
@@ -238,14 +238,14 @@ const Integrations = () => {
               </div>
 
               <div className="w-fit space-y-3">
-                <img src={check} alt="check" />
+                <img src={checkIcon} alt="checkIcon" />
                 <Paragraph styles="text-sm font-medium text-[#4F4E53]">
                   Submit your design. Get extra exposure on works to grow fast.
                 </Paragraph>
               </div>
 
               <div className="w-fit space-y-3">
-                <img src={check} alt="check" />
+                <img src={checkIcon} alt="checkIcon" />
                 <Paragraph styles="text-sm font-medium text-[#4F4E53]">
                   Get unlimited design inspirations. Level up your design.
                 </Paragraph>
