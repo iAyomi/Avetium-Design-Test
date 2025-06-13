@@ -1,4 +1,4 @@
-import Header from "../modules/Header";
+import Main from "../modules/Main";
 import Integrations from "../modules/Integrations";
 import Benefit from "../modules/Benefit";
 import Pricing from "../modules/Pricing";
@@ -8,8 +8,8 @@ import Footer from "../modules/Footer";
 
 const Home = () => {
   return (
-    <div>
-      <Header />
+    <div className="relative">
+      <Main />
       <Integrations />
       <Benefit />
       <Pricing />

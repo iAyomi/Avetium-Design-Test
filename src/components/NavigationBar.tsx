@@ -4,7 +4,7 @@ import Hero from "../assets/logos/avetium.svg";
 
 const NavigationBar = () => {
   return (
-    <header className="absolute top-0 w-full flex items-center justify-between px-20 py-5">
+    <header className="z-10 absolute top-0 left-0 w-full flex items-center justify-between px-20 py-5 bg-transparent">
       <div className="relative h-12">
         <img src={Hero} alt="hero_img" className="h-10" />
         <Paragraph styles="absolute text-xs right-0 bottom-0">
