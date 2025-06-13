@@ -1,6 +1,6 @@
 import Button from "../components/Button";
 import slider from "../assets/Slider.svg";
-import check from "../assets/icons/Check.svg";
+import rounded_check from "../assets/icons/rounded_check.svg";
 
 const Pricing = () => {
   return (
@@ -39,19 +39,19 @@ const Pricing = () => {
 
           <div className="flex flex-col gap-y-2">
             <div className="flex items-center gap-x-2">
-              <img src={check} alt="check" />
+              <img src={rounded_check} alt="rounded_check" />
               <span className="font-medium">Unlimited access</span>
             </div>
             <div className="flex items-center gap-x-2">
-              <img src={check} alt="check" />
+              <img src={rounded_check} alt="rounded_check" />
               <span className="font-medium">Detailed reports</span>
             </div>
             <div className="flex items-center gap-x-2">
-              <img src={check} alt="check" />
+              <img src={rounded_check} alt="rounded_check" />
               <span className="font-medium">Structured dashboards</span>
             </div>
             <div className="flex items-center gap-x-2">
-              <img src={check} alt="check" />
+              <img src={rounded_check} alt="rounded_check" />
               <span className="font-medium">24/7 cuztomer support</span>
             </div>
           </div>

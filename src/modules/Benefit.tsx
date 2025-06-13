@@ -18,7 +18,7 @@ const Benefit = () => {
         <p>FILES STORAGES</p>
       </div>
 
-      <div className="h-[40%] w-1/2 border-5 bg-linear-65 from-[#000000] to-[#9B9B9B]"></div>
+      <div className="h-[40%] w-1/2 border-6 border-[#535965] bg-linear-65 from-[#000000] to-[#9B9B9B] rounded-2xl"></div>
 
       <Button
         content="Get started today"
