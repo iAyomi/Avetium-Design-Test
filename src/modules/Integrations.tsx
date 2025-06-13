@@ -1,7 +1,7 @@
 import { Heading, SubHeading, Paragraph } from "../components/Typography";
 import Button from "../components/Button";
 import screenBg from "../assets/screen_bg.svg";
-import checkIcon from "../assets/icons/check.svg";
+import checkIcon from "../assets/icons/check_icon.svg";
 import bitbucket from "../assets/tools/bitbucket.svg";
 import confluence from "../assets/tools/confluence.svg";
 import discord from "../assets/tools/discord.svg";
